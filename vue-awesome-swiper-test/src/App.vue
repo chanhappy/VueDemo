@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/1.jpg" /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <AwesomeSwiperTest />
   </div>
 </template>
@@ -15,7 +13,7 @@ export default {
   components: {
     // HelloWorld,
     AwesomeSwiperTest
-  },
+  }
 };
 </script>
 

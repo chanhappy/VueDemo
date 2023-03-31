@@ -33,9 +33,9 @@ export default {
         },
       },
       images: [
-        { url: "./../assets/1.jpg" },
-        { url: "./../assets/2.jpg" },
-        { url: "./../assets/3.jpg" },
+        { url: require("./../assets/1.jpg") },
+        { url: require("./../assets/2.jpg") },
+        { url: require("./../assets/3.jpg") },
       ],
     };
   },
@@ -50,6 +50,5 @@ export default {
 img {
   width: 500px;
   height: 300px;
-  background: red;
 }
 </style>
